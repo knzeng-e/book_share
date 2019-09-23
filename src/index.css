@@ -1,0 +1,41 @@
+.book_description:hover {
+  background-color: rgba(211, 18, 18, 0.815);
+  width: 2px;
+  color: #004280; 
+  cursor: pointer;
+}
+
+.book_description {
+  background-color: rgb(168, 181, 194);
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.card-image button{
+  margin-right: 21px;
+  margin-left: 21px;
+  margin-top: 2.4px;
+  margin-bottom: 2.4px;
+  width: 24%;
+}
+
+.card-reveal {
+  opacity: 0.9;
+}
+
+.card-reveal button{
+  margin-top: 2.4px;
+  margin-bottom: 2.4px;
+  width: 42%;
+
+}
+
+.col img{
+  height: 21em;
+}
+
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

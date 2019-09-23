@@ -1,0 +1,8 @@
+const africa_unite = `
+Sommes-nous africains ? Qu’est-ce que l’Afrique ? De cette double interrogation, née au XVIIIe siècle dans la diaspora africaine déportée aux Amériques, a émergé un vaste mouvement intellectuel, politique et culturel qui a pris le nom de panafricanisme au tournant du XXe siècle. Ce mouvement a constitué, pour les Africains des deux rives de l’Atlantique, un espace privilégié de rencontres et de mobilisations.
+De la révolution haïtienne de 1791 à l’élection du premier président noir des États-Unis en 2008 en passant par les indépendances des États africains, Amzat Boukari-Yabara retrace, dans cette ambitieuse fresque historique, l’itinéraire singulier de ces personnalités qui, à l’image de W.E.B. Du Bois, Marcus Garvey, George Padmore, C.L.R. James, Kwame Nkrumah ou Cheikh Anta Diop, ont mis leur vie au service de la libération de l’Afrique et de l’émancipation des Noirs à travers le monde. Mêlant les voix de ces acteurs de premier plan, bientôt rejoints par quantité d’artistes, d’écrivains et de musiciens, comme Bob Marley ou Miriam Makeba, la polyphonie panafricaine s’est mise à résonner aux quatre coins du « monde noir », de New York à Monrovia, de Londres à Accra, de Kingston à Addis-Abeba.
+Les mots d’ordre popularisés par les militants panafricains n’ont pas tous porté les fruits espérés. Mais, à l’heure où l’Afrique est confrontée à de nouveaux défis, le panafricanisme reste un chantier d’avenir, insiste Amzat Boukari-Yabara. Tôt ou tard, les Africains briseront les frontières géographiques et mentales qui brident encore leur liberté.
+`
+console.log(africa_unite);
+
+export default africa_unite;
