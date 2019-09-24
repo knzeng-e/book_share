@@ -4,8 +4,12 @@ import penseeAfricaine from './la_pensee_africaine.jpg';
 import nationsNegres from './nations-negres-et-culture.jpg';
 
 const BookPictures = () => {
-    const pictures = {lesDamnes, penseeAfricaine, nationsNegres, africa_unite};
-    //const [pictures, setPictures] = useState(bookPics);
+    const pictures = {
+                        lesDamnes, 
+                        penseeAfricaine, 
+                        nationsNegres, 
+                        africa_unite
+                    }
     return (pictures)
 }
 

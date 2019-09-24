@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink} from 'react-router-dom';
 
 const NavBar = () => {
-    const [isConnected, setIsConnected] = useState(false)
     return (
         <nav style = {styles.navBarStyle} >
             <div className= "nav-wrapper" >
