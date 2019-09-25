@@ -19,7 +19,7 @@ const initialState = {
                     'title': 'La pensée africaine',
                     'author': 'Mbog Bassong',
                     'picture': BookPictures().penseeAfricaine,
-                    'description': BookDescription.africa_unite,
+                    'description': BookDescription.penseeAfricaine,
 
                 },
     ]

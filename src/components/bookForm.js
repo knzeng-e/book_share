@@ -27,11 +27,17 @@ const BookForm = (props) => {
         const picture = BookPictures().nationsNegres;
         let newBook = {title, author, picture, description};
         props.saveBook(newBook);
+        props.history.push('/');
         console.log(newBook)
     }
     return(
-        <div className="row">
-            <form className="col s12" onSubmit={addBookHandler}>
+        <div className="container row" style = {styles.formStyle}>
+            <div className="center">
+                <hr/>
+                <h4>Enreigrez votre livre</h4>
+                <hr/>
+            </div>
+            <form className="col s12 z-depth-1 form" onSubmit={addBookHandler}>
 
                 <div className="row">
                     <div className="input-field col s6">
@@ -67,16 +73,13 @@ const BookForm = (props) => {
                     </textarea>
                     </div>
                 </div>
-
                 <div className="row center">
                         <input type="submit" 
                                 value="ADD A BOOK" 
                                 className = "btn center" 
                                 style={styles.buttonStyle}
                         />
-
                 </div>
-
             </form>
         </div>
     )
@@ -86,6 +89,9 @@ const styles = {
  
   buttonStyle: {
       backgroundColor: '#004280',
+  },
+  formStyle: {
+      margin: '10%',
   }
 }
 

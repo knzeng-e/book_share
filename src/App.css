@@ -14,6 +14,10 @@
 
 }
 
+.form {
+  margin-top: 2.1%;
+}
+
 .addButton {
   display: flex;
   flex-direction: row;

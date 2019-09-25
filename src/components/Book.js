@@ -2,8 +2,8 @@ import React from 'react';
 
 const Book = ({title, author, picture, description}) => {
   return (
-    <div className="hoverable">
-      <div className="card">
+    <div className="hoverable" >
+      <div className="card z-depth-2" style={styles.bookStyle}>
         <div className="card-image responsive-img waves-effect waves-block waves-light">
           <img className="activator bookPicture" src={picture} alt={title}/>
           <button title="Acheter" className="btn left" style = {styles.buttonStyle}><i className="material-icons">add_shopping_cart</i></button>
@@ -22,7 +22,7 @@ const Book = ({title, author, picture, description}) => {
 
 const styles = {
   bookStyle: {
-    backgroundColor: '#004280',
+    borderRadius: '4.2px',
   },
   buttonStyle: {
       backgroundColor: '#004280',

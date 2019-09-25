@@ -1,7 +1,6 @@
 import Book from './Book';
-import {connect} from 'react-redux';
 import React from 'react';
-import BookForm from './bookForm';
+import {connect} from 'react-redux';
 import addBookAction from '../store/actions/addBook_action';
 
 const BookList = (props) => {
@@ -10,7 +9,7 @@ const BookList = (props) => {
 
     console.log('STATEBook ==>', myList);
     return(
-        <div>
+          <div className="container" style={styles.bookListStyle}>
             <div className="row" id="mySpliter">
                     {
                         myList.map((book, index) => {
@@ -26,9 +25,6 @@ const BookList = (props) => {
                         })
                     }
             </div> 
-       <div className="row">
-            <BookForm />
-        </div> 
         <div>
                 <ul className="pagination pager center" id="spliter">
                     <li className="disabled"><a href="#!"><i className="material-icons">chevron_left</i></a></li>
@@ -42,6 +38,13 @@ const BookList = (props) => {
             </div>
        </div>
     )
+}
+
+const styles = {
+
+    bookListStyle: {
+        marginTop: '42px',
+    }
 }
 
 
