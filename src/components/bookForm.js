@@ -31,11 +31,11 @@ const BookForm = (props) => {
         console.log(newBook)
     }
     return(
-        <div className="container row" style = {styles.formStyle}>
+        <div className="row" style = {styles.formStyle}>
             <div className="center">
-                <hr/>
-                <h4>Enreigrez votre livre</h4>
-                <hr/>
+                <span/>
+                    <h4 className="title">Enregistrez votre livre</h4>
+                <span/>
             </div>
             <form className="col s12 z-depth-1 form" onSubmit={addBookHandler}>
 

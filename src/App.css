@@ -6,16 +6,25 @@
   align-items: center;
 }
 
-.book_container{
- /* display: flex;
+.container{
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 4.2%;
+  overflow: scroll;
+  display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: center;*/
+  justify-content: center;
+  align-items: center;
 
 }
 
+.title {
+border: solid 2px;
+margin-bottom: 4.2%;
+padding: 16px;
+}
+
 .form {
-  margin-top: 2.1%;
 }
 
 .addButton {
