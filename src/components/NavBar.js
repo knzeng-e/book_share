@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import NotFound from './NotFound';
 import BookList from './BookList';
 import BookForm from './bookForm';
@@ -31,6 +32,7 @@ const NavBar = () => {
             <Switch>
                 <Route exact path="/" component={BookList}></Route>
                 <Route path="/add" component={BookForm}></Route>
+                <Route path="/about" component={About}></Route>
                 <Route component={NotFound}></Route>
             </Switch>
         </Router>
